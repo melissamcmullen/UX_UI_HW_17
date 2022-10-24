@@ -1,6 +1,7 @@
 * {
     font-family: 'Poppins', regular;
 }
+/* top navigation bar in blue */
   .topnav {
     overflow: hidden;
     background-color: #1C6E8C;
@@ -17,6 +18,8 @@
     background-color: #ddd;
     color: black;
   }
+
+  /* bottom navigation bar in green */
   .bottomnav {
     overflow: hidden;
     background-color: #3F9686;
@@ -33,12 +36,58 @@
     background-color: #ddd;
     color: black; 
   }
-  .footer {
+
+  /* bottom footer */
+  .footerleft {
+    position: absolute;
     text-align: left;
     float: left;
-    padding: 14px 16px;
-    width: 100%;
-    text-decoration: none;
     background-color: #1C6E8C;
     color: #f2f2f2;
+    padding: 20px;
+    width: 50%;
   }
+
+  .footerright {
+    text-align: right;
+    float: right;
+    background-color: #1C6E8C;
+    color: #f2f2f2;
+    padding: 20px;
+    width: 50%;
+  }
+  
+/* hero image on top */
+.heroimage {
+  position: relative;
+  background-image: url("images/thunderstorm2_1200.jpg");
+}
+/* Top left main logo */
+.topleftlogo{
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 20px;
+  top: 8px;
+  left: 16px;
+}
+/* Top left National Weather Service name */
+.topleftname {
+  position: absolute;
+  margin-left: 140px;
+  margin-top: 50px;
+  color: white;
+  top: 8px;
+  left: 16px;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+/* Top right text search bar */
+.topright {
+  position: absolute;
+  margin-top: 65px;
+  top: 8px;
+  right: 16px;
+}
+.small {
+  line-height: 0.0;
+}
