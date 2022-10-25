@@ -1,4 +1,5 @@
-* {
+/* universal font for the page */
+* { 
     font-family: 'Poppins', regular;
 }
 /* top navigation bar in blue */
